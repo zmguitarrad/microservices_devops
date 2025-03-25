@@ -2,9 +2,11 @@
   "name": "microservicio-devops",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "start": "node src/index.js",
+  "lint": "eslint .",
+  "test": "jest --coverage"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,4 +16,5 @@
     "jsonwebtoken": "^9.0.2",
     "uuid": "^11.1.0"
   }
+  
 }
